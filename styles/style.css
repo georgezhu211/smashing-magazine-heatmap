@@ -224,6 +224,7 @@ h1 {
   font-size: 23px;
   border: none;
   border-radius: 10px;
+  color: white;
 }
 
 .email-form h1 {
@@ -249,17 +250,58 @@ h1 {
   background-color: var(--clr-gray-700);
   font-size: 31px;
   text-align: center;
+  color: white;
+  
 }
 
 
-/*  */
+/* SECTION 2 */
 .section-2 {
   border: 1px solid black;
   height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 120px;
+  margin-top: 100px;
+}
+
+.card-2 {
+  width: 380px;
+  height: 440px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: var(--clr-gray-500);
+  padding: 50px;
+  color: white;
+}
+
+.card-2 h1 {
+  font-size: 38px;
+  text-decoration: underline;
+  background-color: var(--clr-gray-700);
+}
+
+.card-2 p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  background-color: var(--clr-gray-600);
+  margin-top: 35px;
+  margin-bottom: 35px;
+  line-height: 1.4;
+}
+
+.card-2 button {
+  background-color: var(--clr-gray-800);
+  width: 380px;
+  height: 80px;
+  border: none;
+  border-radius: 12px;
+  font-size: 30px;
+  color: white;
 }
 
 .all-guides {
   border: 1px solid black;
   height: 180px;
 }
-
