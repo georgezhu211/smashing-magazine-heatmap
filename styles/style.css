@@ -1,0 +1,136 @@
+:root {
+  --clr-gray-900: #111;
+  --clr-gray-800: #222;
+  --clr-gray-700: #333;
+  --clr-gray-600: #444;
+  --clr-gray-500: #555;
+  --clr-gray-400: #666;
+  --clr-gray-300: #777;
+  --clr-gray-200: #888;
+  --clr-gray-100: #999;
+}
+
+.heatmap {
+  height: 100px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  color: white;
+  text-decoration: underline;
+}
+
+.box1 {
+  background-color: var(--clr-gray-100);
+}
+
+.box2 {
+  background-color: var(--clr-gray-200);
+}
+
+.box3 {
+  background-color: var(--clr-gray-300);
+}
+
+.box4 {
+  background-color: var(--clr-gray-400);
+}
+
+.box5 {
+  background-color: var(--clr-gray-500);
+}
+
+.box6 {
+  background-color: var(--clr-gray-600);
+}
+
+.box7 {
+  background-color: var(--clr-gray-700);
+}
+
+.box8 {
+  background-color: var(--clr-gray-800);
+}
+
+.box9 {
+  background-color: var(--clr-gray-900);
+}
+/* navbar */
+.navbar {
+  height: 110px;
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: var(--clr-gray-800);
+  color: var(--clr-gray-100);
+}
+
+.nav-item {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.logo {
+  flex: 2;
+  font-size: 38px;
+  background-color: var(--clr-gray-900);
+
+}
+
+.searchbar {
+  flex: 3;
+}
+
+.searchbar > input {
+  width: 70%;
+  height: 50%;
+  border-radius: 5px;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.category-list {
+  height: 70px;
+  background-color: var(--clr-gray-700);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: var(--clr-gray-200);
+  padding: 0 40px;
+}
+
+.category-item {
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  height: 40px;
+  width:100px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.section-1 {
+  border: 1px solid black;
+  height: 1000px;
+}
+
+.section-2 {
+  border: 1px solid black;
+  height: 600px;
+}
+
+.all-guides {
+  border: 1px solid black;
+  height: 180px;
+}
+
