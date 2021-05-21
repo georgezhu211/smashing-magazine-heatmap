@@ -111,15 +111,14 @@
 .category-item {
   display: grid;
   place-items: center;
-  border: 1px solid black;
   height: 40px;
   width:100px;
   border-radius: 5px;
   font-size: 20px;
+  background-color: var(--clr-gray-700);
 }
 
 .section-1 {
-  border: 1px solid black;
   height: 1000px;
   display: grid;
   grid-template-areas: "left right";
@@ -161,7 +160,7 @@ h1 {
   height: 120px;
   width: 120px;
   margin: 0 25px;
-  background-color: var(--clr-gray-600);
+  background-color: var(--clr-gray-700);
 
 }
 
@@ -175,13 +174,13 @@ h1 {
 .article-title {
   font-size: 36px;
   flex: 0.8;
-  background-color: var(--clr-gray-600);
+  background-color: var(--clr-gray-700);
 }
 
 .article-title.first {
   font-size: 45px;
   flex: 0.8;
-  background-color: var(--clr-gray-800);
+  background-color: var(--clr-gray-900);
 
 }
 
@@ -201,7 +200,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: var(--clr-gray-400);
+  background-color: var(--clr-gray-700);
   position: relative;
   padding: 130px 50px 0 50px;
   color: white;
@@ -214,13 +213,13 @@ h1 {
   position: absolute;
   top: -100px;
   border-radius: 50%;
-  background-color: var(--clr-gray-800);
+  background-color: var(--clr-gray-900);
 }
 
 .email-form button {
   width: 210px;
   height: 60px;
-  background-color: var(--clr-gray-700);
+  background-color: var(--clr-gray-900);
   font-size: 23px;
   border: none;
   border-radius: 10px;
@@ -231,7 +230,7 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 29px;
-  background-color: var(--clr-gray-700);
+  background-color: var(--clr-gray-800);
   line-height: 1.5;
 }
 
@@ -247,7 +246,7 @@ h1 {
   margin-bottom: 80px;
   border-radius: 10px;
   border: none;
-  background-color: var(--clr-gray-700);
+  background-color: var(--clr-gray-800);
   font-size: 31px;
   text-align: center;
   color: white;
@@ -257,7 +256,6 @@ h1 {
 
 /* SECTION 2 */
 .section-2 {
-  border: 1px solid black;
   height: 600px;
   display: flex;
   justify-content: space-around;
@@ -269,7 +267,6 @@ h1 {
 .card-2 {
   width: 380px;
   height: 440px;
-  border: 1px solid black;
   border-radius: 8px;
   background-color: var(--clr-gray-500);
   padding: 50px;
@@ -302,6 +299,157 @@ h1 {
 }
 
 .all-guides {
+  height: 50px;
+  width: fit-content;
+  padding: 0 20px;
+  display: grid;
+  place-items: center;
+  font-size: 17px;
+  margin: 0 auto;
+  background-color: var(--clr-gray-200);
+  margin-bottom: 100px;
+}
+
+.section-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-3 {
+  width: 750px;
+  height: 450px;
+  position: relative;
+  padding: 0 100px;
+  box-sizing: border-box;
+  background-color: var(--clr-gray-300);
+  color: white;
+}
+
+.pic-3 {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: -20px;
+  transform: rotate(-25deg);
+  background-color: var(--clr-gray-600);
+}
+
+.div-3 > h4 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-style: italic;
+  background-color: var(--clr-gray-500);
+}
+
+h4 > a {
+  color: white;
+  font-style: normal;
+}
+
+.div-3 > h3 {
+  font-size: 36px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 30px;
+  background-color: var(--clr-gray-800);
+}
+
+.div-3 > p {
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: var(--clr-gray-700);
+}
+
+.div-3.five {
+  display: grid;
+  place-items: center;
+  margin-bottom: 130px;
+  text-align: center;
+}
+
+.devkinsta {
+  width: 350px;
+  height: 250px;
   border: 1px solid black;
-  height: 180px;
+  background-color: var(--clr-gray-700);
+  display: grid;
+  border-radius: 10px;
+}
+
+.devkinsta > h3 {
+  font-size: 36px;
+  display: grid;
+  place-items: center;
+  background-color: var(--clr-gray-800);
+
+}
+.devkinsta > p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.devkinsta > button {
+  width: fit-content;
+  height: 35px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: var(--clr-gray-800);
+  border: none;
+}
+
+.div-3.six {
+  padding: 0;
+}
+
+.join-community {
+  height: 100%;
+  border-radius: 15px;
+  overflow: non ;
+  background-color: var(--clr-gray-700);
+  position: relative;
+  text-align: center;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.cat-logo2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--clr-gray-800);
+  position: absolute;
+  border: 3px solid black;
+  top: -100px;
+  left: 250px;
+}
+
+.join-community > h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: var(--clr-gray-800);
+}
+
+.join-community > p {
+  font-size: 22px;
+  line-height: 1.3;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.join-community > button {
+  width: 300px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: var(--clr-gray-900);
+  border: none;
+}
+
+button {
+  color: white;
+  border-radius: 5px;
 }
